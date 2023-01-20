@@ -1,7 +1,7 @@
 {
   "name": "@devtest/single-spa-header",
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack serve --port 9011 --env isLocal",
     "start:standalone": "webpack serve --env standalone",
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
